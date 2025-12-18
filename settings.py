@@ -1,4 +1,3 @@
-# settings.py
 WIDTH, HEIGHT = 900, 600
 FPS = 60
 PLAYER_SPEED = 4
@@ -9,4 +8,6 @@ SPAWN_DELAY = 1200 # ms
 MAX_HP = 100
 XP_PER_KILL = 10
 XP_TO_LEVEL = 100
-HIGHSCORE_FILE = "highscore.json"
+
+HIGHSCORE_FILE = "highscore.txt"
+GOLD_FILE = "gold.txt"
