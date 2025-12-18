@@ -11,6 +11,8 @@ from utils import load_highscore, save_highscore, load_gold, save_gold
 pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Zombie Survival")
+icon = pygame.image.load("assets/icon.png")
+pygame.display.set_icon(icon)
 clock = pygame.time.Clock()
 
 # ================== GAME STATE ==================
